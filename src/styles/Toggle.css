@@ -1,0 +1,35 @@
+.toggleContainer{
+    position: relative;
+    width: 70px;
+    height: 32px;
+    background-color: #c4c4c4;
+    cursor: pointer;
+    user-select: none;
+    border-radius: 3px;
+    padding: 2px;
+    margin-top: 20px;
+    border-radius: 34px;
+}
+
+.toggleBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    font-size: 14px;
+    cursor: pointer;
+    color: white;
+    background-color: #0db60da2;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .23);
+    padding: 8px;
+    position: absolute;
+    transition: 200ms ease-in-out;
+    top: 0;
+    left: 34px;
+    border-radius: 50%;
+}
+
+.disabled{
+    background-color: #707070;
+    left: 2px;
+}
